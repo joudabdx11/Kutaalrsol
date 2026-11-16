@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>على خُطى الرسول ﷺ</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@400;500;700&display=swap">
+<style>
+:root{--g:#12392f;--g2:#1d5a47;--bg:#f4ecda;--card:#fffdf7;--ink:#1d2a25;--mut:#5d6b64;--gold:#b8923a;--line:#e2d6b8;--ok:#2e7d4f;--bad:#b4442f;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--g:#0a2119;--g2:#2c7a60;--bg:#0d1f1a;--card:#14302a;--ink:#efe6d0;--mut:#a9b8ae;--gold:#d4ae5a;--line:#2a4a40;color-scheme:dark}}
+:root[data-theme="dark"]{--g:#0a2119;--g2:#2c7a60;--bg:#0d1f1a;--card:#14302a;--ink:#efe6d0;--mut:#a9b8ae;--gold:#d4ae5a;--line:#2a4a40;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.9 Tajawal,"Segoe UI",Tahoma,sans-serif;padding-bottom:70px}
+h1,h2,h3{font-family:Amiri,"Traditional Arabic",serif;line-height:1.5;margin:0}
+button{font:inherit;cursor:pointer}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--g);color:#f4ecda;border-bottom:3px solid var(--gold);display:flex;align-items:center;justify-content:space-between;padding:8px 16px;gap:12px}
+.logo{display:flex;align-items:center;gap:10px;font:700 22px Amiri,serif;text-decoration:none;color:#f4ecda}
+.tnav{display:none;gap:4px}
+.tnav a,.bnav a{text-decoration:none;padding:6px 12px;border-radius:20px;font-size:15px;color:#e9dfc4}
+.tnav a.on{background:var(--gold);color:#12392f;font-weight:700}
+.bnav{position:fixed;bottom:0;inset-inline:0;background:var(--g);display:flex;justify-content:space-around;padding:6px 4px calc(6px + env(safe-area-inset-bottom,0px));border-top:2px solid var(--gold);z-index:20}
+.bnav a{display:flex;flex-direction:column;align-items:center;font-size:12px;padding:2px 6px;line-height:1.4}
+.bnav a b{font-size:20px;font-weight:400}.bnav a.on{color:var(--gold);font-weight:700}
+@media(min-width:760px){.tnav{display:flex}.bnav{display:none}body{padding-bottom:0}}
+main{max-width:980px;margin:0 auto;padding:20px 16px 40px}
+.hero{background:var(--g) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80'%3E%3Cpath d='M40 6l8 14 15-6-3 16 16 4-12 11 12 11-16 4 3 16-15-6-8 14-8-14-15 6 3-16-16-4 12-11-12-11 16-4-3-16 15 6z' fill='none' stroke='%23b8923a' stroke-opacity='.18'/%3E%3C/svg%3E");color:#f4ecda;border-radius:0 0 28px 28px;margin:0 -16px;padding:48px 20px 0;text-align:center;overflow:hidden;position:relative}
+.hero h1{font-size:clamp(40px,9vw,72px);color:#f0d48a}
+.hero p{max-width:560px;margin:10px auto 22px;font-size:19px}
+.hero svg{display:block;margin:24px auto 0;width:min(420px,90%);height:auto}
+.btn{background:var(--gold);color:#12392f;border:0;border-radius:28px;padding:10px 26px;font-weight:700;text-decoration:none;display:inline-block;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}.btn.alt{background:transparent;border:2px solid var(--gold);color:var(--ink)}
+.btn[disabled]{opacity:.5;cursor:default}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin:20px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;text-decoration:none;display:block;color:inherit}
+a.card:hover{border-color:var(--gold)}
+.card h3{color:var(--g2);font-size:22px}.card .ic{font-size:30px}
+.sec{margin-top:28px}.sec>h2{font-size:30px;color:var(--g2);border-inline-start:5px solid var(--gold);padding-inline-start:12px;margin-bottom:8px}
+.note{font-size:14px;color:var(--mut);background:var(--card);border:1px dashed var(--gold);border-radius:10px;padding:10px 14px;margin-top:20px}
+.bar{height:14px;background:var(--line);border-radius:10px;overflow:hidden;margin:10px 0}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--g2),var(--gold));transition:width .6s}
+.path{position:relative;margin:20px 0;padding-inline-start:44px}
+.path:before{content:"";position:absolute;inset-inline-start:19px;top:10px;bottom:10px;width:4px;background:repeating-linear-gradient(var(--gold) 0 10px,transparent 10px 18px)}
+.node{position:relative;margin-bottom:22px;cursor:pointer;width:100%;text-align:start}
+.node .dot{position:absolute;inset-inline-start:-44px;top:10px;width:40px;height:40px;border-radius:50%;background:var(--card);border:3px solid var(--gold);display:grid;place-items:center;font:700 18px Amiri,serif;color:var(--g2)}
+.node.done .dot{background:var(--ok);color:#fff;border-color:var(--ok)}
+.node small{color:var(--mut)}
+.q{position:absolute;inset-inline-start:-34px;bottom:-22px;font-size:13px;color:var(--gold)}
+.ov{position:fixed;inset:0;background:rgba(5,20,15,.7);z-index:50;display:flex;align-items:flex-end;justify-content:center}
+.sheet{background:var(--bg);width:min(720px,100%);max-height:92vh;overflow:auto;border-radius:22px 22px 0 0;padding:22px 20px calc(24px + env(safe-area-inset-bottom,0px));animation:up .3s}
+@keyframes up{from{transform:translateY(40px);opacity:0}}
+@media(min-width:760px){.ov{align-items:center}.sheet{border-radius:22px}}
+.tl{list-style:none;padding:0;margin:8px 0}.tl li{padding:6px 14px;border-inline-start:3px solid var(--gold);margin-bottom:6px;background:var(--card);border-radius:0 8px 8px 0}
+.src{font-size:14px;color:var(--mut)}
+.tag{display:inline-block;font-size:13px;border-radius:12px;padding:0 10px;background:var(--g2);color:#fff}.tag.h{background:var(--gold);color:#12392f}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.chip{border:2px solid var(--line);background:var(--card);color:var(--ink);border-radius:24px;padding:4px 16px}.chip.on{border-color:var(--gold);background:var(--g);color:#f4ecda}
+.opt{display:block;width:100%;text-align:start;margin:8px 0;padding:10px 14px;border:2px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink)}
+.opt:hover:not([disabled]){border-color:var(--gold)}.opt.ok{border-color:var(--ok);background:rgba(46,125,79,.18)}.opt.bad{border-color:var(--bad);background:rgba(180,68,47,.15)}
+.exp{background:var(--card);border-inline-start:4px solid var(--gold);padding:8px 14px;border-radius:8px;margin:10px 0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px}
+.stat{text-align:center;background:var(--g);color:#f4ecda;border-radius:14px;padding:14px}.stat b{display:block;font:700 34px Amiri,serif;color:#f0d48a}
+.bd{text-align:center;padding:14px 10px}.bd .ic{font-size:38px}.bd.lock{opacity:.4;filter:grayscale(1)}.bd p{margin:0;font-size:14px;color:var(--mut)}
+.toast{position:fixed;top:calc(70px + env(safe-area-inset-top,0px));inset-inline:16px;margin:auto;max-width:360px;background:var(--gold);color:#12392f;padding:10px 16px;border-radius:14px;font-weight:700;z-index:80;text-align:center;animation:up .3s}
+.big{font:700 clamp(22px,4vw,30px)/1.7 Amiri,serif;color:var(--g2)}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header><a class="logo" href="#home"><svg width="34" height="34" viewBox="0 0 80 80"><path d="M40 4l9 15 16-7-3 17 17 4-13 12 13 12-17 4 3 17-16-7-9 15-9-15-16 7 3-17-17-4 13-12-13-12 17-4-3-17 16 7z" fill="#b8923a"/><circle cx="40" cy="40" r="14" fill="#12392f"/></svg>على خُطى الرسول ﷺ</a><nav class="tnav" id="tn"></nav></header>
+<main id="app"></main>
+<nav class="bnav" id="bn"></nav>
+<script>
+const $=s=>document.querySelector(s);
+const NAV=[["home","الرئيسية","🕌"],["journey","الرحلة","🗺️"],["akhlaq","أخلاقه","🌿"],["quiz","اختبر","❓"],["challenge","التحدي","🎯"],["me","إنجازاتي","🏅"]];
+const STAGES=[
+{t:"المولد والنشأة",y:"نحو 570م – 610م",s:"وُلد النبي ﷺ في مكة المكرمة في عام الفيل، وتوفي أبوه عبد الله قبل ولادته على المشهور، فنشأ يتيمًا، وكفله جدّه عبد المطلب ثم عمّه أبو طالب. عُرف بين قومه بالصادق الأمين.",e:["عام الفيل: ولادته ﷺ في مكة (على أشهر الأقوال).","في السادسة: توفيت أمه آمنة بنت وهب في الأبواء.","في الثامنة: توفي جده عبد المطلب فكفله عمه أبو طالب.","في الخامسة والعشرين: تزوج خديجة بنت خويلد رضي الله عنها.","في الخامسة والثلاثين: حكّمته قريش في وضع الحجر الأسود حين اختلفوا."],l:["الصدق والأمانة صفتان تكسبان ثقة الناس قبل أي منصب.","الحكمة تحل الخلاف بين الناس بلا نزاع."],src:"سيرة ابن هشام، زاد المعاد لابن القيم",q:{q:"من الذي كفل النبي ﷺ بعد وفاة جده عبد المطلب؟",o:["أبو بكر","أبو طالب","حمزة"],a:1}},
+{t:"بداية نزول الوحي",y:"نحو 610م",s:"كان ﷺ يتعبد في غار حراء، وفي سن الأربعين نزل عليه جبريل عليه السلام بأول آيات من سورة العلق، وكان أول أمر في الوحي: «اقرأ». فعاد إلى خديجة خائفًا فطمأنته وذهبت به إلى ورقة بن نوفل.",e:["نزول جبريل في غار حراء في شهر رمضان.","نزول أول آيات سورة العلق.","تصديق خديجة رضي الله عنها وتثبيتها له.","فترة انقطاع الوحي ثم نزول أوائل سورة المدثر."],l:["أول أمر في الوحي هو القراءة، فالإسلام يبدأ بالعلم.","دعم الأسرة والمقربين يثبّت الإنسان وقت الشدة."],src:"صحيح البخاري (كتاب بدء الوحي)، سورة العلق",q:{q:"ما أول كلمة نزلت في الوحي؟",o:["اقرأ","قم","يا أيها الناس"],a:0}},
+{t:"الدعوة في مكة",y:"610م – 622م",s:"بدأت الدعوة سرًّا ثم جهر بها ﷺ على جبل الصفا. صبر هو وأصحابه على الأذى، وهاجر بعضهم إلى الحبشة، وحوصر بنو هاشم في شعب أبي طالب نحو ثلاث سنوات، ثم فقد ﷺ زوجته خديجة وعمّه أبا طالب في عام الحزن.",e:["الدعوة السرية ثم الجهر على الصفا.","الهجرة الأولى إلى الحبشة هربًا بالدين.","حصار بني هاشم في شعب أبي طالب.","عام الحزن: وفاة خديجة وأبي طالب.","رحلة الطائف، ثم الإسراء والمعراج.","بيعتا العقبة مع أهل يثرب."],l:["الصبر على الأذى مع الثبات على الحق.","الدعوة تبدأ بالقدوة والحكمة قبل القوة."],src:"سيرة ابن هشام، الرحيق المختوم للمباركفوري",q:{q:"ماذا سُمّي العام الذي توفيت فيه خديجة وأبو طالب؟",o:["عام الفيل","عام الحزن","عام الوفود"],a:1}},
+{t:"الهجرة إلى المدينة",y:"622م – 1هـ",s:"بعد بيعة العقبة أذن الله لنبيه بالهجرة. خرج ﷺ مع أبي بكر الصديق رضي الله عنه، واختبآ في غار ثور ثلاثة أيام، ثم وصلا إلى قباء وبنى فيها المسجد، ثم دخل المدينة وسط استقبال الأنصار.",e:["الخروج ليلًا مع أبي بكر رضي الله عنه.","المكوث في غار ثور ثلاث ليالٍ.","الوصول إلى قباء وتأسيس مسجدها.","دخول المدينة (يثرب) وبدء التقويم الهجري بعد ذلك في عهد عمر رضي الله عنه."],l:["التوكل على الله مع الأخذ بالأسباب والتخطيط.","الصحبة الصادقة وقت الشدة؛ قال تعالى: «إِذْ يَقُولُ لِصَاحِبِهِ لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا»."],src:"سورة التوبة: 40، صحيح البخاري (حديث الهجرة)، سيرة ابن هشام",q:{q:"في أي غار اختبأ النبي ﷺ وأبو بكر؟",o:["غار حراء","غار ثور","غار أحد"],a:1}},
+{t:"بناء المجتمع في المدينة",y:"1هـ – 2هـ",s:"أسّس ﷺ دولة المدينة على قيم راسخة: بنى المسجد النبوي، وآخى بين المهاجرين والأنصار، وكتب وثيقة تنظّم العلاقة بين سكان المدينة، وشُرع الأذان.",e:["بناء المسجد النبوي ليكون مركزًا للعبادة والعلم والشورى.","المؤاخاة بين المهاجرين والأنصار.","كتابة وثيقة المدينة (الصحيفة) لتنظيم التعايش.","مشروعية الأذان للصلاة."],l:["المجتمع القوي يقوم على الأخوة والتعاون.","المسجد مكان للعلم والخير لا للصلاة فقط."],src:"سيرة ابن هشام، البداية والنهاية لابن كثير",q:{q:"ما الذي ربط بين المهاجرين والأنصار؟",o:["المؤاخاة","التجارة فقط","النسب"],a:0}},
+{t:"أبرز أحداث السيرة",y:"2هـ – 10هـ",s:"شهدت هذه المرحلة محطات كبرى تعلّمنا القيادة والوفاء بالعهد والعفو عند المقدرة.",e:["غزوة بدر (2هـ): أول لقاء كبير مع قريش.","غزوة أحد (3هـ): درس في الطاعة والثبات.","غزوة الخندق (5هـ): حفر الخندق بمشورة سلمان الفارسي رضي الله عنه.","صلح الحديبية (6هـ): وصفه القرآن بالفتح.","فتح مكة (8هـ): دخلها ﷺ متواضعًا وعفا عن أهلها.","حجة الوداع (10هـ): خطبة عرفة."],l:["الشورى والأخذ بالأسباب.","الوفاء بالعهد والصبر لتحقيق المصلحة الكبرى.","العفو عند المقدرة أعظم من الانتقام."],src:"صحيح البخاري (كتاب المغازي)، سيرة ابن هشام، سورة الفتح",q:{q:"أي حدث وقع في السنة الثامنة للهجرة؟",o:["غزوة بدر","فتح مكة","غزوة الخندق"],a:1}},
+{t:"وفاة الرسول ﷺ",y:"11هـ / 632م",s:"بعد حجة الوداع بدأ مرضه ﷺ، وانتقل إلى الرفيق الأعلى يوم الاثنين من شهر ربيع الأول في العام الحادي عشر للهجرة وله ثلاث وستون سنة، في بيت عائشة رضي الله عنها، بعد أن بلّغ الرسالة وأدى الأمانة.",e:["خطبة حجة الوداع وتقرير حقوق الإنسان والمسلم.","مرضه في بيت عائشة رضي الله عنها.","وفاته ﷺ يوم الاثنين من ربيع الأول سنة 11هـ.","تولّي أبي بكر الصديق الخلافة بعده."],l:["الأمانة: بلّغ الرسالة كاملة.","نترك أثرًا طيبًا يبقى بعد رحيلنا."],src:"صحيح البخاري، البداية والنهاية لابن كثير",q:{q:"ما اسم الخطبة التي ألقاها ﷺ في عرفة قبل وفاته؟",o:["خطبة الوداع","خطبة الفتح","خطبة الهجرة"],a:0}}];
+const AK=[
+{n:"الصدق",i:"💎",v:"«عَلَيْكُمْ بِالصِّدْقِ، فَإِنَّ الصِّدْقَ يَهْدِي إِلَى الْبِرِّ، وَإِنَّ الْبِرَّ يَهْدِي إِلَى الْجَنَّةِ»",r:"متفق عليه (حديث ابن مسعود)",h:1,st:"صعد ﷺ الصفا ونادى قريشًا: لو أخبرتكم أن خيلًا بالوادي تريد أن تغير عليكم أكنتم مصدقيّ؟ فقالوا: ما جرّبنا عليك كذبًا. (بمعناه في صحيح البخاري)",ap:"لا تكذب حتى مازحًا، وقل الحقيقة بلطف، واعترف بخطئك بشجاعة."},
+{n:"الرحمة",i:"🤍",v:"«وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِلْعَالَمِينَ» (الأنبياء: 107)",r:"القرآن الكريم",h:1,st:"قبّل النبي ﷺ الحسن بن علي، فقال الأقرع بن حابس إن لي عشرة من الولد ما قبلت منهم أحدًا، فنظر إليه ﷺ وقال بمعناه: من لا يَرحم لا يُرحم. (متفق عليه)",ap:"قبّل والديك، ارحم الصغير، وأطعم حيوانًا جائعًا، وساعد من يحتاج."},
+{n:"التواضع",i:"🌱",v:"قالت عائشة رضي الله عنها بمعناه: كان يعين أهله في أعمال البيت، فإذا حضرت الصلاة خرج إليها.",r:"صحيح البخاري",h:1,st:"مع مكانته العظيمة كان ﷺ يخيط ثوبه ويخدم أهله ولا يتكبر على أحد، وقال بمعناه: لا تبالغوا في مدحي كما بالغ النصارى في ابن مريم، فإنما أنا عبد الله ورسوله. (البخاري)",ap:"ساعد في أعمال البيت، لا تتفاخر بنجاحك، وأصغِ للجميع باحترام."},
+{n:"الصبر",i:"⛰️",v:"«وَاصْبِرْ وَمَا صَبْرُكَ إِلَّا بِاللَّهِ» (النحل: 127)",r:"القرآن الكريم",h:1,st:"في الطائف ردّه أهلها وآذوه، فعرض عليه ملَك الجبال أن يطبق عليهم الأخشبين، فقال: بل أرجو أن يخرج الله من أصلابهم من يعبد الله وحده. (متفق عليه بمعناه)",ap:"عند الفشل أو الأذى لا تستسلم ولا تنتقم؛ اصبر وحاول من جديد."},
+{n:"العفو",i:"🕊️",v:"قالت عائشة رضي الله عنها بمعناه: ما انتقم لنفسه قط في أمر أُوذي فيه، إلا أن تُنتهك حرمة الله.",r:"متفق عليه",h:1,st:"عند فتح مكة عفا ﷺ عن أهلها الذين آذوه سنوات، ويُروى أنه قال لهم: اذهبوا فأنتم الطلقاء. (رواية من كتب السيرة)",ap:"سامح زميلًا أخطأ في حقك، وابدأ بالسلام وتجاوز عن الزلات الصغيرة."},
+{n:"الأمانة",i:"🔐",v:"«إِنَّ اللَّهَ يَأْمُرُكُمْ أَنْ تُؤَدُّوا الْأَمَانَاتِ إِلَى أَهْلِهَا» (النساء: 58)",r:"القرآن الكريم",h:1,st:"اشتهر ﷺ قبل البعثة بالأمين، وتذكر كتب السيرة أنه ترك عليًّا رضي الله عنه في مكة ليرد الودائع إلى أصحابها ليلة الهجرة. (رواية سيرة)",ap:"أعد ما استعرته في وقته، واحفظ سرّ صديقك، وأتقن مسؤوليتك."},
+{n:"الرفق",i:"🪶",v:"«إِنَّ الرِّفْقَ لَا يَكُونُ فِي شَيْءٍ إِلَّا زَانَهُ» (بمعناه)",r:"صحيح مسلم",h:1,st:"بال أعرابي في طرف المسجد فهمّ الصحابة به، فقال ﷺ: دعوه، ثم أمر بدلو من ماء فصُبّ عليه، وعلّمه برفق. (متفق عليه)",ap:"صحّح خطأ زميلك بهدوء ولطف، وتحدّث بكلمة طيبة حتى عند الخلاف."}];
+const QS=[
+{l:1,q:"في أي مدينة وُلد النبي ﷺ؟",o:["المدينة المنورة","مكة المكرمة","الطائف"],a:1,e:"وُلد ﷺ في مكة المكرمة في عام الفيل."},
+{l:1,q:"ما اسم والدة النبي ﷺ؟",o:["آمنة بنت وهب","خديجة بنت خويلد","فاطمة بنت أسد"],a:0,e:"أمه آمنة بنت وهب، وخديجة رضي الله عنها زوجته الأولى."},
+{l:1,q:"في أي غار نزل الوحي أول مرة؟",o:["غار ثور","غار حراء","غار أحد"],a:1,e:"نزل جبريل عليه السلام عليه في غار حراء."},
+{l:1,q:"من رفيقه في الهجرة؟",o:["عمر بن الخطاب","علي بن أبي طالب","أبو بكر الصديق"],a:2,e:"هاجر ﷺ مع أبي بكر الصديق رضي الله عنه."},
+{l:1,q:"إلى أي مدينة هاجر النبي ﷺ؟",o:["المدينة المنورة","الحبشة","اليمن"],a:0,e:"هاجر إلى المدينة المنورة (يثرب سابقًا)."},
+{l:2,q:"ما اللقب الذي اشتهر به قبل البعثة؟",o:["الفاروق","الصادق الأمين","ذو النورين"],a:1,e:"لقّبته قريش بالصادق الأمين لصدقه وأمانته."},
+{l:2,q:"ما أول مسجد بُني بعد وصوله إلى المدينة؟",o:["مسجد قباء","المسجد النبوي","مسجد القبلتين"],a:0,e:"بنى مسجد قباء أولًا ثم المسجد النبوي في المدينة."},
+{l:2,q:"في أي سنة هجرية كانت غزوة بدر؟",o:["الأولى","الثانية","الخامسة"],a:1,e:"كانت غزوة بدر في رمضان من السنة الثانية للهجرة."},
+{l:2,q:"أي سورة نزلت في بدايتها أول آيات الوحي؟",o:["العلق","الفاتحة","البقرة"],a:0,e:"أول ما نزل: «اقرأ باسم ربك الذي خلق» من سورة العلق."},
+{l:2,q:"ما العام الذي توفيت فيه خديجة وأبو طالب؟",o:["عام الفيل","عام الحزن","عام الفتح"],a:1,e:"سُمّي عام الحزن لفقده ﷺ زوجته وعمّه."},
+{l:3,q:"كم كان عمره ﷺ حين نزل عليه الوحي؟",o:["أربعين سنة","ثلاثين سنة","خمسين سنة"],a:0,e:"بُعث ﷺ على رأس الأربعين."},
+{l:3,q:"كم كان عمره ﷺ عند وفاته على المشهور؟",o:["ستين","ثلاثًا وستين","سبعين"],a:1,e:"توفي ﷺ وله ثلاث وستون سنة."},
+{l:3,q:"في أي غزوة حُفر الخندق بمشورة سلمان الفارسي؟",o:["الأحزاب (الخندق)","أحد","حنين"],a:0,e:"كانت غزوة الخندق في السنة الخامسة للهجرة."},
+{l:3,q:"أين حوصر بنو هاشم نحو ثلاث سنوات؟",o:["في شعب أبي طالب","في الطائف","في غار ثور"],a:0,e:"حوصروا في شعب أبي طالب بمكة."},
+{l:3,q:"أي صلح وصفه القرآن بالفتح، وكان في السنة السادسة؟",o:["صلح الحديبية","وثيقة المدينة","بيعة العقبة"],a:0,e:"نزلت سورة الفتح بعد صلح الحديبية."}];
+const CH=[["الرفق","اليوم حاول أن تكون أكثر رفقًا في تعاملك مع الآخرين، وصحّح أي خطأ بكلمة هادئة."],["الصدق","قل الحقيقة في كل موقف اليوم، حتى لو كان الصدق صعبًا."],["الرحمة","ساعد شخصًا أو أطعم حيوانًا أو أدخل السرور على أحد أفراد أسرتك."],["التواضع","ساعد في عمل منزلي دون أن يطلب منك أحد."],["العفو","سامح شخصًا أخطأ في حقك، وابدأ بالسلام عليه."],["الأمانة","أرجع شيئًا استعرته، أو أنجز مسؤولية كُلّفت بها في وقتها."],["الصبر","إذا غضبت اليوم فتوقف لحظة وتنفس ولا ترد بسرعة."],["الإحسان للوالدين","قبّل يد والديك أو قل لهما كلمة شكر طيبة."],["الابتسامة","ابتسم في وجه ثلاثة أشخاص اليوم، فالكلمة الطيبة والبشاشة صدقة."],["العلم","اقرأ اليوم صفحة أو درسًا مفيدًا، فأول ما نزل: اقرأ."],["الوفاء","اتصل بصديق أو قريب لم تكلمه منذ فترة."],["الكلمة الطيبة","لا تقل اليوم إلا خيرًا، وامتنع عن السخرية من الآخرين."]];
+const BD=[["b1","بداية الرحلة","🌙","أكمل مرحلة واحدة",s=>cnt(s)>=1],["b2","رحّالة السيرة","🐪","أكمل 4 مراحل",s=>cnt(s)>=4],["b3","خاتم الرحلة","🌟","أكمل جميع المراحل",s=>cnt(s)>=7],["b4","نجم الاختبار","🏆","احصل على 80% في اختبار",s=>s.best>=80],["b5","محب الأخلاق","🌿","اقرأ الأخلاق السبعة",s=>s.ak.length>=7],["b6","المثابر","🔥","أنجز التحدي 3 أيام",s=>s.ch.length>=3],["b7","مئة نقطة","💯","اجمع 100 نقطة",s=>tot(s)>=100]];
+let S=load();
+function load(){try{const d=JSON.parse(localStorage.getItem("khutaa-v1"));if(d)return d}catch(e){}return{st:{},q:{},ch:[],ak:[],bd:[],best:0}}
+function cnt(s){return Object.keys(s.st).length}
+function tot(s){return Object.values(s.st).reduce((a,b)=>a+b,0)+Object.values(s.q).reduce((a,b)=>a+b,0)+s.ch.length*5}
+function save(){try{localStorage.setItem("khutaa-v1",JSON.stringify(S))}catch(e){}BD.forEach(b=>{if(!S.bd.includes(b[0])&&b[4](S)){S.bd.push(b[0]);toast("🏅 شارة جديدة: "+b[1]);try{localStorage.setItem("khutaa-v1",JSON.stringify(S))}catch(e){}}})}
+function toast(t){const d=document.createElement("div");d.className="toast";d.textContent=t;document.body.appendChild(d);setTimeout(()=>d.remove(),2800)}
+function pct(){return Math.round(cnt(S)/STAGES.length*100)}
+const today=()=>new Date().toLocaleDateString("en-CA");
+const R={
+home(){return`<section class="hero"><h1>على خُطى الرسول ﷺ</h1><p>رحلة نتعلم فيها من سيرة خير البشر ﷺ</p><a class="btn" href="#journey">ابدأ رحلتك</a><svg viewBox="0 0 420 120" aria-hidden="true"><rect x="20" y="100" width="380" height="20" fill="#0a2119"/><rect x="70" y="30" width="12" height="75" fill="#f4ecda"/><path d="M70 30l6-20 6 20z" fill="#b8923a"/><rect x="338" y="30" width="12" height="75" fill="#f4ecda"/><path d="M338 30l6-20 6 20z" fill="#b8923a"/><rect x="130" y="70" width="160" height="32" fill="#f4ecda"/><path d="M160 70a50 50 0 0 1 100 0z" fill="#2c7a60"/><path d="M212 12a8 8 0 1 0 6 12 6 6 0 1 1-6-12z" fill="#b8923a"/></svg></section>
+<section class="sec"><h2>عن المشروع</h2><p>منصة تعليمية تفاعلية تعرّف الطلاب والطالبات بالسيرة النبوية الشريفة، وتربط بين المعرفة والتطبيق العملي، من خلال رحلة مرتبة زمنيًا وقصص من أخلاقه ﷺ واختبارات وتحديات يومية.</p></section>
+<div class="grid">${NAV.slice(1).map(n=>`<a class="card" href="#${n[0]}"><div class="ic">${n[2]}</div><h3>${{journey:"رحلة السيرة النبوية",akhlaq:"أخلاقه ﷺ",quiz:"اختبر معلوماتك",challenge:"تحدي اليوم",me:"إنجازاتي"}[n[0]]}</h3><p>${{journey:"سبع محطات من المولد إلى الوفاة بخريطة تفاعلية.",akhlaq:"سبعة أخلاق مع مواقف صحيحة وتطبيقات يومية.",quiz:"15 سؤالًا بثلاثة مستويات ونقاط وتفسير.",challenge:"قيمة نبوية وتحدٍّ عملي بسيط كل يوم.",me:"نقاطك وشاراتك ونسبة تقدمك."}[n[0]]}</p></a>`).join("")}</div>
+<p class="note">📚 المصادر: القرآن الكريم، صحيح البخاري، صحيح مسلم، سيرة ابن هشام، البداية والنهاية لابن كثير، زاد المعاد. تُنقل الأحاديث بالمعنى ما لم تكن بين علامتي تنصيص، ويُنصح بمراجعة المعلم أو أهل العلم للتوسع. لا تتضمن المنصة أي تصوير للنبي ﷺ.</p>`},
+journey(){return`<section class="sec"><h2>رحلة السيرة النبوية</h2><p>اضغط على كل محطة لتقرأ تفاصيلها، ثم أجب عن سؤال قصير لتكملها وتنال نقاطها.</p><div class="bar"><i style="width:${pct()}%"></i></div><b>${cnt(S)} من ${STAGES.length} مراحل (${pct()}%)</b><div class="path">${STAGES.map((s,i)=>`<button class="card node ${S.st[i]?"done":""}" onclick="stage(${i})"><span class="dot">${S.st[i]?"✓":i+1}</span><h3>${s.t}</h3><small>${s.y}</small></button>`).join("")}</div></section>`},
+akhlaq(){return`<section class="sec"><h2>أخلاقه ﷺ</h2><p>اختر خُلُقًا لتقرأ موقفًا من السيرة وكيف نطبقه في حياتنا.</p><div class="chips">${AK.map((a,i)=>`<button class="chip ${S.k===i?"on":""}" onclick="pick(${i})">${a.i} ${a.n}</button>`).join("")}</div><div id="ak">${S.k!=null?akCard(S.k):'<div class="card">اختر خُلُقًا من الأعلى 👆</div>'}</div></section>`},
+quiz(){return`<section class="sec"><h2>اختبر معلوماتك</h2><p>اختر المستوى. تُحتسب نقاط كل سؤال مرة واحدة عند أول إجابة صحيحة (سهل 10، متوسط 15، صعب 20).</p><div class="chips"><button class="btn" onclick="startQ(1)">سهل</button><button class="btn" onclick="startQ(2)">متوسط</button><button class="btn" onclick="startQ(3)">صعب</button><button class="btn alt" onclick="startQ(0)">الكل</button></div><div id="qz"></div></section>`},
+challenge(){const k=today(),d=Math.floor(Date.now()/864e5),c=CH[d%CH.length],done=S.ch.includes(k);let st=0,dt=new Date();if(!done)dt.setDate(dt.getDate()-1);while(S.ch.includes(dt.toLocaleDateString("en-CA"))){st++;dt.setDate(dt.getDate()-1)}
+return`<section class="sec"><h2>تحدي اليوم</h2><div class="card"><span class="tag h">القيمة: ${c[0]}</span><p class="big">${c[1]}</p><button class="btn" id="cb" ${done?"disabled":""} onclick="doCh()">${done?"✓ أنجزت تحدي اليوم":"أنجزت التحدي (+5 نقاط)"}</button></div><div class="stats" style="margin-top:14px"><div class="stat"><b>${st}</b>أيام متتالية</div><div class="stat"><b>${S.ch.length}</b>تحديات منجزة</div></div><p class="note">يتجدد التحدي كل يوم تلقائيًا. تحقيق 3 تحديات يمنحك شارة «المثابر».</p></section>`},
+me(){return`<section class="sec"><h2>إنجازاتي</h2><div class="stats"><div class="stat"><b>${cnt(S)}</b>مراحل مكتملة</div><div class="stat"><b>${tot(S)}</b>مجموع النقاط</div><div class="stat"><b>${S.bd.length}</b>شارات</div><div class="stat"><b>${S.best}%</b>أفضل اختبار</div></div><h3 style="margin-top:20px">التقدم في الرحلة: ${pct()}%</h3><div class="bar"><i style="width:${pct()}%"></i></div><h3>الشارات</h3><div class="grid">${BD.map(b=>`<div class="card bd ${S.bd.includes(b[0])?"":"lock"}"><div class="ic">${b[2]}</div><b>${b[1]}</b><p>${b[3]}</p></div>`).join("")}</div><button class="btn alt" onclick="if(confirm('هل تريد مسح كل تقدمك؟')){S={st:{},q:{},ch:[],ak:[],bd:[],best:0};save();go()}">إعادة ضبط التقدم</button></section>`}};
+function akCard(i){const a=AK[i];return`<div class="card"><h3>${a.i} ${a.n}</h3><span class="tag ${a.h?"h":""}">${a.r}</span><p class="big">${a.v}</p><h3>الموقف</h3><p>${a.st}</p><h3>كيف نطبقه؟</h3><div class="exp">${a.ap}</div></div>`}
+function pick(i){S.k=i;if(!S.ak.includes(i))S.ak.push(i);save();$("#ak").innerHTML=akCard(i);document.querySelectorAll(".chip").forEach((c,j)=>c.classList.toggle("on",j===i))}
+function stage(i){const s=STAGES[i],d=!!S.st[i];const o=document.createElement("div");o.className="ov";o.onclick=e=>{if(e.target===o)o.remove()};o.innerHTML=`<div class="sheet" role="dialog"><button class="btn alt" style="float:left" onclick="this.closest('.ov').remove()">إغلاق ✕</button><h2>${s.t}</h2><small>${s.y}</small><p>${s.s}</p><h3>تسلسل الأحداث</h3><ul class="tl">${s.e.map(x=>`<li>${x}</li>`).join("")}</ul><h3>دروس مستفادة</h3><ul>${s.l.map(x=>`<li>${x}</li>`).join("")}</ul><p class="src">المصادر: ${s.src}</p><div class="card"><h3>❓ سؤال المحطة</h3>${d?"<p>✓ أكملت هذه المرحلة.</p>":`<p>${s.q.q}</p>${s.q.o.map((x,j)=>`<button class="opt" onclick="ansS(${i},${j},this)">${x}</button>`).join("")}`}</div></div>`;document.body.appendChild(o)}
+function ansS(i,j,b){const q=STAGES[i].q,ok=j===q.a;b.parentNode.querySelectorAll(".opt").forEach((x,k)=>{x.disabled=true;if(k===q.a)x.classList.add("ok")});if(!ok)b.classList.add("bad");S.st[i]=ok?20:5;save();b.parentNode.insertAdjacentHTML("beforeend",`<div class="exp">${ok?"أحسنت! +20 نقطة 🎉":"الإجابة الصحيحة: "+q.o[q.a]+". أُكملت المرحلة (+5 نقاط)."}</div>`);if($("#app .path"))go()}
+let Q=null;
+function startQ(l){const list=QS.filter(x=>!l||x.l===l).sort(()=>Math.random()-.5);Q={list,i:0,s:0};showQ()}
+function showQ(){const q=Q.list[Q.i];$("#qz").innerHTML=`<div class="card"><small>السؤال ${Q.i+1} من ${Q.list.length}</small><div class="bar"><i style="width:${Q.i/Q.list.length*100}%"></i></div><h3>${q.q}</h3>${q.o.map((x,j)=>`<button class="opt" onclick="ansQ(${j},this)">${x}</button>`).join("")}<div id="fb"></div></div>`}
+function ansQ(j,b){const q=Q.list[Q.i],ok=j===q.a;b.parentNode.querySelectorAll(".opt").forEach((x,k)=>{x.disabled=true;if(k===q.a)x.classList.add("ok")});if(!ok)b.classList.add("bad");if(ok){Q.s++;const id=QS.indexOf(q);if(!S.q[id])S.q[id]=[0,10,15,20][q.l]}const last=Q.i===Q.list.length-1;$("#fb").innerHTML=`<div class="exp">${ok?"✅ إجابة صحيحة. ":"❌ إجابة خاطئة. "}${q.e}</div><button class="btn" onclick="${last?"endQ()":"Q.i++;showQ()"}">${last?"عرض النتيجة":"السؤال التالي"}</button>`;save()}
+function endQ(){const p=Math.round(Q.s/Q.list.length*100);if(p>S.best)S.best=p;save();$("#qz").innerHTML=`<div class="card" style="text-align:center"><h3>نتيجتك: ${Q.s} من ${Q.list.length} (${p}%)</h3><p class="big">${p>=80?"ممتاز! بارك الله فيك 🌟":p>=50?"جيد، حاول مرة أخرى لتحسّن نتيجتك.":"لا بأس، راجع الرحلة ثم أعد الاختبار."}</p><p>مجموع نقاطك: ${tot(S)}</p><button class="btn" onclick="startQ(0)">إعادة الاختبار</button> <a class="btn alt" href="#journey">راجع الرحلة</a></div>`}
+function doCh(){const k=today();if(!S.ch.includes(k)){S.ch.push(k);save();toast("بارك الله فيك! +5 نقاط");go()}}
+function go(){const r=(location.hash||"#home").slice(1),k=R[r]?r:"home";$("#app").innerHTML=R[k]();const l=NAV.map(n=>`<a href="#${n[0]}" class="${n[0]===k?"on":""}"><b>${n[2]}</b>${n[1]}</a>`).join("");$("#tn").innerHTML=l.replace(/<b>.*?<\/b>/g,"");$("#bn").innerHTML=l}
+addEventListener("hashchange",()=>{go();scrollTo(0,0)});go();
+</script>
+</body>
+</html>
